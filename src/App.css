@@ -1,0 +1,395 @@
+body {
+  background-color: #16212f;
+  color: #fff;
+}
+.songsCard {
+  transition: all 500ms ease;
+  padding-top: 1.5rem;
+
+}
+
+.about-cards {
+  width: 35%;
+  margin: 1rem;
+  background-color: #fff;
+}
+.about-row {
+  justify-content: space-evenly;
+}
+.about-img {
+  border-radius: 15px;
+}
+
+.songsCard:hover {
+  transform: translateY(-10px);
+  transition: all 500ms ease;
+
+}
+.carousel-inner {
+  margin-top: -110px;
+}
+button.outlineButton.btn.btn-primary{
+  color: #16212f;
+  background: linear-gradient(
+150deg
+, var( --e-global-color-5d382be ) 0%, var( --e-global-color-6628420 ) 100%);
+  border-color: #12b7c7;
+}
+button.outlineButton.btn.btn-primary:hover{
+  color: #fff;
+  background: #0f939d;
+  border-color: #12b7c7;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+  color: #fff;
+  background-color: #0f939d;
+  border-color: #12b7c7;
+  box-shadow: 0 0 0 0.25rem rgb(15 147 157 / 50%);
+}
+.btn-primary {
+  color: #fff;
+  background: linear-gradient(150deg, var( --e-global-color-5d382be ) 0%, var( --e-global-color-6628420 ) 100%);
+  border-color: #12b7c7;
+
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background: -webkit-gradient(linear, right bottom, left bottom, from(#0b7d86), to(#13c8da)) fixed;
+  border-color: #12b7c7;
+
+}
+.row>* {
+  padding-right: calc(var(--bs-gutter-x) * 1.5);
+  padding-left: calc(var(--bs-gutter-x) * 1.5);
+  padding-top: calc(var(--bs-gutter-x) * 0.7);
+  padding-bottom: calc(var(--bs-gutter-x) * 0.7);
+  margin-top: calc(var(--bs-gutter-x) * 0.5);
+
+}
+
+button.close{
+  color: #fff;
+  background: -webkit-gradient(linear, right bottom, left bottom, from(#13c8da), to(#0b7d86)) fixed;
+  border-color: #12b7c7;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+}
+
+/* .card {
+  width: 100%;
+} */
+
+.about-card-body {
+  color: #000;
+  text-align: center;
+}
+.switch.btn {
+  min-width: 8rem;
+  margin-top: 10px;
+}
+
+.dropdown {
+  margin-top: 10px;
+}
+.list-form-input {
+  max-width: 200px;
+}
+
+.btn-danger {
+  background-color: #D92C45;
+  border-color: #D92C45;
+}
+
+.btn-success {
+  color: #fff;
+  /* background: -webkit-gradient(linear, right bottom, left bottom, from(#13c8da), to(#0b7d86)) fixed; */
+  background: #16212F;
+  border-color: #0f939d;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background: -webkit-gradient(linear, right bottom, left bottom, from(#0b7d86), to(#13c8da)) fixed;
+  border-color: #0f939d;
+}
+.btn-check:focus+.btn-success, .btn-success:focus {
+  color: #fff;
+  background-color: #0f939d;
+  border-color: #0f939d;
+  box-shadow: 0 0 0 0.25rem rgb(15 147 157 / 50%);
+}
+
+
+.btn-check:active+.btn-success, .btn-check:checked+.btn-success, .btn-success.active, .btn-success:active, .show>.btn-success.dropdown-toggle {
+  color: #fff;
+  background-color: #0f939d;
+  border-color: #0f939d;
+}
+.btn-check:active+.btn-success:focus, .btn-check:checked+.btn-success:focus, .btn-success.active:focus, .btn-success:active:focus, .show>.btn-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgb(15 147 157 / 50%);
+}
+/* 
+.dropdown {
+  text-align: center;
+} */
+
+.dropdown-toggle {
+  width: 100%;
+  max-width: 135px;
+  margin: 2rem 0 4rem 0;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #e9ecef;
+}
+
+input.form-control {
+  margin-bottom: 10px;
+  background: transparent;
+}
+
+.add-item-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 40px;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109),
+    0 1px 1px rgba(128, 128, 128, 0.155),
+    0 2.1px 2.1px rgba(128, 128, 128, 0.195),
+    0 4.4px 4.4px rgba(128, 128, 128, 0.241),
+    0 12px 12px rgba(128, 128, 128, 0.35);
+
+}
+  .form-input-material {
+    margin: 12px 0;
+  }
+
+input.list-form-input.form-control {
+  margin-bottom: 0;
+  border-radius: 5px 0px 0px 5px;
+  border-color: #12b7c7;
+  max-width: 600px;
+  width: 350px;
+  height: 55px;
+}
+
+button.list-button.btn.btn-primary {
+  color: #16212f;
+}
+button#dropdown-basic {
+  margin: 0;
+}
+
+button.list-button.btn.btn-primary {
+  border-radius: 0px 5px 5px 0px;
+  height: 55px;
+}
+.mainContainer.d-flex.justify-content-between {
+  background: #fff;
+  width: 85%;
+  margin-top: -85px;
+  margin-left: 8%;
+  border-radius: 10px;
+  height: 105px;
+  z-index: 1;
+}
+
+/* Header */
+  @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600,800&display=swap");
+  html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+ }
+  .container {
+    width: 1280px;
+    min-width: 1280px;
+    margin: 0 auto;
+ }
+  .container .wrapper {
+    padding: 0 48px;
+ }
+  .container .wrapper .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+ }
+  .container .wrapper .home p {
+    font-size: 0.75rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+ }
+  .container .wrapper .home h5 {
+    margin-top: 260px;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 360px;
+ }
+  header {
+    height: 100px;
+ }
+  header .inner-header {
+    position: relative;
+    z-index: 10;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+  header .inner-header .logo a {
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+ }
+  header .inner-header .menu button {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    mix-blend-mode: difference;
+ }
+  header .hamburger-menu {
+    display: none;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+ }
+  header .hamburger-menu .menu-secondary-background-color {
+    background: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+ }
+  header .hamburger-menu .menu-layer {
+    position: relative;
+    background: #0f939d;
+    height: 100%;
+    overflow: hidden;
+ }
+
+  header .hamburger-menu .menu-layer .menu-city-background {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: backgroundEffect;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+ }
+  header .hamburger-menu .menu-layer .wrapper {
+    position: relative;
+ }
+  header .hamburger-menu .menu-layer .wrapper .menu-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 200px;
+ }
+  header .hamburger-menu .menu-layer .wrapper .menu-links nav {
+    display: block;
+ }
+  header .hamburger-menu .menu-layer .wrapper .menu-links nav ul {
+    margin: 0;
+    padding: 0;
+ }
+  header .hamburger-menu .menu-layer .wrapper .menu-links nav ul li {
+    list-style: none;
+    font-size: 6rem;
+    font-weight: 700;
+    cursor: pointer;
+    height: 135px;
+    overflow: hidden;
+    position: relative;
+    width: 700px;
+ }
+  header .hamburger-menu .menu-layer .wrapper .menu-links nav ul li a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+ }
+  header .hamburger-menu .menu-layer .wrapper .menu-links nav ul li a:hover {
+    color: #16212f;
+ }
+  header .hamburger-menu .menu-layer .wrapper .menu-links .info {
+    color: #fff;
+    width: 300px;
+ }
+  header .hamburger-menu .menu-layer .wrapper .menu-links .info h3 {
+    font-size: 1.2rem;
+    margin: 8px auto;
+ }
+  header .hamburger-menu .menu-layer .wrapper .menu-links .info p {
+    margin: 0 auto;
+    font-size: 0.8rem;
+ }
+  header .hamburger-menu .menu-layer .wrapper .locations {
+    position: absolute;
+    bottom: -80px;
+    color: #fff;
+    margin-top: 16px;
+    font-size: 0.8rem;
+    font-weight: 600;
+ }
+  header .hamburger-menu .menu-layer .wrapper .locations span {
+    cursor: pointer;
+    font-weight: 400;
+    margin: 0 32px;
+    transition: 0.3s ease-in-out;
+ }
+  header .hamburger-menu .menu-layer .wrapper .locations span:first-child {
+    margin-left: 64px;
+ }
+  header .hamburger-menu .menu-layer .wrapper .locations span:hover {
+    color: #fff;
+    background: #16212f;
+    padding: 8px 24px;
+    border-radius: 4px;
+ }
+  @keyframes backgroundEffect {
+    0% {
+      background-position: 0% 0%;
+   }
+    25% {
+      background-position: 40% 10%;
+   }
+    50% {
+      background-position: 0 10%;
+   }
+    75% {
+      background-position: 10% 40%;
+   }
+    100% {
+      background-position: 0% 0%;
+   }
+ }
+  
