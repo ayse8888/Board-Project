@@ -4,14 +4,14 @@ This project is inspired by Trello which is a task manager. In this project we b
 We used React js and Firebase (for database) for this project. And we used Bootstrap and CSS for styling.
 
 # Features
-Creating A Board
-Creating Lists
-Sorting Lists
-Editing List Items
-Deleting List Items
-Sorting List Items
-Adding Songs to Favorite List and Remove
-Redirect to Youtube Link
+- Creating A Board
+- Creating Lists
+- Sorting Lists
+- Editing List Items
+- Deleting List Items
+- Sorting List Items
+- Adding Songs to Favorite List and Remove
+- Redirect to Youtube Link
 
 The website is hosted in https://lovelysongs.netlify.app/
 
