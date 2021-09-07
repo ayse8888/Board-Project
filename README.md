@@ -1,3 +1,21 @@
+#About Website
+
+This project is inspired by Trello which is a task manager. In this project we built a music app where you can add songs to your list, edit them and delete them. You can create your own song list and add songs in it. You can add them to your favorites and remove. 🎵
+We used React js and Firebase (for database) for this project. And we used Bootstrap and CSS for styling.
+
+#Features
+Creating A Board
+Creating Lists
+Sorting Lists
+Editing List Items
+Deleting List Items
+Sorting List Items
+Adding Songs to Favorite List and Remove
+Redirect to Youtube Link
+
+The website is hosted in https://lovelysongs.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
