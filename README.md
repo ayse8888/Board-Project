@@ -1,6 +1,6 @@
 # About Website
 
-This project is inspired by Trello which is a task manager. In this project we built a music app where you can add songs to your list, edit them and delete them. You can create your own song list and add songs in it. You can add them to your favorites and remove. 🎵
+This project is inspired by Trello which is a task manager. In this project we built a music app where you can add songs to your list, edit them and delete them. You can create your own song list and add songs in it. You can add them to your favorites and remove. 🎵 \
 We used React js and Firebase (for database) for this project. And we used Bootstrap and CSS for styling.
 
 # Features
